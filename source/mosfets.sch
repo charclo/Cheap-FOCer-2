@@ -180,17 +180,6 @@ F 3 "" H 2900 4100 60  0001 C CNN
 	1    2900 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Q_NMOS_GDS Q6
-U 1 1 53F8E681
-P 9750 4200
-F 0 "Q6" H 9700 4300 60  0000 R CNN
-F 1 "NCEP60T20" V 10050 4450 60  0000 R CNN
-F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 9750 4200 60  0001 C CNN
-F 3 "" H 9750 4200 60  0001 C CNN
-	1    9750 4200
-	1    0    0    -1  
-$EndComp
 Text HLabel 10000 3750 2    60   Output ~ 0
 PHASE_3
 $Comp
@@ -640,64 +629,6 @@ Wire Wire Line
 	7550 2650 7550 2800
 Connection ~ 6400 2800
 $Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5DB525FD
-P 8400 3250
-AR Path="/53FBA77E/5DB525FD" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5DB525FD" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5DB525FD" Ref="R43"  Part="1" 
-F 0 "R43" V 8300 3250 50  0000 C CNN
-F 1 "4.7R" V 8400 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8400 3250 60  0001 C CNN
-F 3 "" H 8400 3250 60  0001 C CNN
-	1    8400 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5DB5DA67
-P 8400 4200
-AR Path="/53FBA77E/5DB5DA67" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5DB5DA67" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5DB5DA67" Ref="R49"  Part="1" 
-F 0 "R49" V 8300 4200 50  0000 C CNN
-F 1 "4.7R" V 8400 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8400 4200 60  0001 C CNN
-F 3 "" H 8400 4200 60  0001 C CNN
-	1    8400 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5DB7C530
-P 5100 3200
-AR Path="/53FBA77E/5DB7C530" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5DB7C530" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5DB7C530" Ref="R42"  Part="1" 
-F 0 "R42" V 5000 3200 50  0000 C CNN
-F 1 "4.7R" V 5100 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 3200 60  0001 C CNN
-F 3 "" H 5100 3200 60  0001 C CNN
-	1    5100 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5DB84717
-P 5100 4150
-AR Path="/53FBA77E/5DB84717" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5DB84717" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5DB84717" Ref="R48"  Part="1" 
-F 0 "R48" V 5000 4150 50  0000 C CNN
-F 1 "4.7R" V 5100 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 4150 60  0001 C CNN
-F 3 "" H 5100 4150 60  0001 C CNN
-	1    5100 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 3200 4600 3200
-$Comp
 L Device:R R?
 U 1 1 5DA8297F
 P 6650 5350
@@ -1014,8 +945,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 3150 2500 3150
 Wire Wire Line
-	1100 3150 1250 3150
-Wire Wire Line
 	3000 4500 3000 4700
 Connection ~ 3000 4700
 Wire Wire Line
@@ -1031,7 +960,6 @@ Wire Wire Line
 	5900 3200 5900 3750
 Wire Wire Line
 	6400 3600 6400 3750
-Connection ~ 9850 4000
 Wire Wire Line
 	3550 5100 3550 5000
 Wire Wire Line
@@ -1098,61 +1026,10 @@ F 3 "~" H 2300 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 3250 2300 3150
-Wire Wire Line
-	2050 3200 2050 3150
-Wire Wire Line
-	2050 3150 2300 3150
 Connection ~ 2300 3150
-Connection ~ 2050 3150
-Wire Wire Line
-	1250 3400 1250 3150
-Connection ~ 1250 3150
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5EEAEC60
-P 1700 4100
-AR Path="/53FBA77E/5EEAEC60" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5EEAEC60" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5EEAEC60" Ref="R47"  Part="1" 
-F 0 "R47" V 1600 4100 50  0000 C CNN
-F 1 "4.7R" V 1700 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1700 4100 60  0001 C CNN
-F 3 "" H 1700 4100 60  0001 C CNN
-	1    1700 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D7
-U 1 1 5EEAEC68
-P 2250 4350
-F 0 "D7" H 2250 4566 50  0000 C CNN
-F 1 "D_Schottky" H 2250 4475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 2250 4350 50  0001 C CNN
-F 3 "~" H 2250 4350 50  0001 C CNN
-	1    2250 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Q_PNP_BEC Q7
-U 1 1 5EEAEC6E
-P 1900 4350
-F 0 "Q7" H 2090 4304 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 2090 4395 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 4450 50  0001 C CNN
-F 3 "~" H 1900 4350 50  0001 C CNN
-	1    1900 4350
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2250 4200 2250 4100
-Wire Wire Line
-	2000 4150 2000 4100
-Wire Wire Line
-	2000 4100 2250 4100
 Connection ~ 2250 4100
-Wire Wire Line
-	1950 4100 2000 4100
-Connection ~ 2000 4100
 Wire Wire Line
 	2250 4100 2500 4100
 $Comp
@@ -1252,11 +1129,6 @@ Connection ~ 3000 3800
 Wire Wire Line
 	3000 3800 3000 3850
 Wire Wire Line
-	2300 3800 2050 3800
-Wire Wire Line
-	2050 3600 2050 3800
-Connection ~ 2300 3800
-Wire Wire Line
 	2500 4100 2500 4700
 Wire Wire Line
 	2250 4500 2250 4800
@@ -1265,57 +1137,6 @@ Wire Wire Line
 Connection ~ 3000 4800
 Wire Wire Line
 	3000 4800 3000 4850
-Wire Wire Line
-	2250 4800 2000 4800
-Wire Wire Line
-	2000 4550 2000 4800
-Connection ~ 2250 4800
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5EFE047A
-P 1450 4350
-AR Path="/53FBA77E/5EFE047A" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5EFE047A" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5EFE047A" Ref="R75"  Part="1" 
-F 0 "R75" V 1350 4350 50  0000 C CNN
-F 1 "4.7R" V 1450 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1450 4350 60  0001 C CNN
-F 3 "" H 1450 4350 60  0001 C CNN
-	1    1450 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1100 4100 1200 4100
-Wire Wire Line
-	1200 4350 1200 4100
-Connection ~ 1200 4100
-Wire Wire Line
-	1200 4100 1450 4100
-$Comp
-L Device:Q_PNP_BEC Q8
-U 1 1 5EE26346
-P 1950 3400
-F 0 "Q8" H 1900 3550 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 2140 3445 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 3500 50  0001 C CNN
-F 3 "~" H 1950 3400 50  0001 C CNN
-	1    1950 3400
-	1    0    0    1   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5F0DDEFC
-P 1500 3400
-AR Path="/53FBA77E/5F0DDEFC" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5F0DDEFC" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5F0DDEFC" Ref="R76"  Part="1" 
-F 0 "R76" V 1400 3400 50  0000 C CNN
-F 1 "4.7R" V 1500 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1500 3400 60  0001 C CNN
-F 3 "" H 1500 3400 60  0001 C CNN
-	1    1500 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6400 2800 6400 3000
 $Comp
@@ -1349,24 +1170,6 @@ F 3 "" H 3000 2550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1250 3150 1500 3150
-Wire Wire Line
-	2000 3150 2050 3150
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5DB923FB
-P 1750 3150
-AR Path="/53FBA77E/5DB923FB" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5DB923FB" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5DB923FB" Ref="R41"  Part="1" 
-F 0 "R41" V 1650 3150 50  0000 C CNN
-F 1 "4.7R" V 1750 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1750 3150 60  0001 C CNN
-F 3 "" H 1750 3150 60  0001 C CNN
-	1    1750 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	5050 2800 6400 2800
 Wire Wire Line
 	3000 2800 3000 2950
@@ -1381,56 +1184,13 @@ F 3 "~" H 5650 4400 50  0001 C CNN
 	1    5650 4400
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_PNP_BEC Q9
-U 1 1 5F1C8178
-P 5300 4400
-F 0 "Q9" H 5490 4354 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 5490 4445 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 4500 50  0001 C CNN
-F 3 "~" H 5300 4400 50  0001 C CNN
-	1    5300 4400
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	5650 4250 5650 4150
-Wire Wire Line
-	5400 4200 5400 4150
-Wire Wire Line
-	5400 4150 5650 4150
 Connection ~ 5650 4150
-Wire Wire Line
-	5350 4150 5400 4150
-Connection ~ 5400 4150
 Wire Wire Line
 	5650 4150 5900 4150
 Wire Wire Line
 	5650 4550 5650 4850
-Wire Wire Line
-	5650 4850 5400 4850
-Wire Wire Line
-	5400 4600 5400 4850
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5F1C818A
-P 4850 4400
-AR Path="/53FBA77E/5F1C818A" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5F1C818A" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5F1C818A" Ref="R77"  Part="1" 
-F 0 "R77" V 4750 4400 50  0000 C CNN
-F 1 "4.7R" V 4850 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4850 4400 60  0001 C CNN
-F 3 "" H 4850 4400 60  0001 C CNN
-	1    4850 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 4400 4600 4150
-Connection ~ 4600 4150
-Wire Wire Line
-	4600 4150 4850 4150
-Wire Wire Line
-	4500 4150 4600 4150
 Wire Wire Line
 	3850 2800 5050 2800
 Connection ~ 5050 2800
@@ -1438,7 +1198,6 @@ Wire Wire Line
 	5650 4850 6400 4850
 Wire Wire Line
 	6400 4700 6400 4850
-Connection ~ 5650 4850
 Connection ~ 6400 4850
 Wire Wire Line
 	6400 4850 6400 4900
@@ -1453,54 +1212,12 @@ F 3 "~" H 5650 3450 50  0001 C CNN
 	1    5650 3450
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_PNP_BEC Q10
-U 1 1 5F0312D7
-P 5300 3450
-F 0 "Q10" H 5490 3404 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 5490 3495 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 3550 50  0001 C CNN
-F 3 "~" H 5300 3450 50  0001 C CNN
-	1    5300 3450
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	5650 3600 5650 3900
 Wire Wire Line
-	5650 3900 5400 3900
-Wire Wire Line
-	5400 3650 5400 3900
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5F0312E0
-P 4850 3450
-AR Path="/53FBA77E/5F0312E0" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5F0312E0" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5F0312E0" Ref="R78"  Part="1" 
-F 0 "R78" V 4750 3450 50  0000 C CNN
-F 1 "4.7R" V 4850 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4850 3450 60  0001 C CNN
-F 3 "" H 4850 3450 60  0001 C CNN
-	1    4850 3450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 3450 4600 3200
-Wire Wire Line
 	5650 3900 6400 3900
-Connection ~ 5650 3900
-Connection ~ 4600 3200
-Wire Wire Line
-	4600 3200 4850 3200
-Wire Wire Line
-	5350 3200 5400 3200
-Wire Wire Line
-	5400 3200 5400 3250
 Wire Wire Line
 	5650 3300 5650 3200
-Wire Wire Line
-	5650 3200 5400 3200
-Connection ~ 5400 3200
 Wire Wire Line
 	5650 3200 5900 3200
 Connection ~ 5650 3200
@@ -1515,59 +1232,15 @@ F 3 "~" H 9100 3500 50  0001 C CNN
 	1    9100 3500
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_PNP_BEC Q11
-U 1 1 5F0B5FF3
-P 8750 3500
-F 0 "Q11" H 8940 3454 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 8940 3545 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 3600 50  0001 C CNN
-F 3 "~" H 8750 3500 50  0001 C CNN
-	1    8750 3500
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	9100 3650 9100 3950
 Wire Wire Line
-	9100 3950 8850 3950
-Wire Wire Line
-	8850 3700 8850 3950
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5F0B5FFC
-P 8300 3500
-AR Path="/53FBA77E/5F0B5FFC" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5F0B5FFC" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5F0B5FFC" Ref="R79"  Part="1" 
-F 0 "R79" V 8200 3500 50  0000 C CNN
-F 1 "4.7R" V 8300 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 3500 60  0001 C CNN
-F 3 "" H 8300 3500 60  0001 C CNN
-	1    8300 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8050 3500 8050 3250
-Wire Wire Line
 	9100 3950 9850 3950
-Connection ~ 9100 3950
-Wire Wire Line
-	8150 3250 8050 3250
-Connection ~ 8050 3250
-Wire Wire Line
-	8050 3250 7950 3250
-Wire Wire Line
-	8650 3250 8850 3250
 Wire Wire Line
 	9100 3350 9100 3250
 Connection ~ 9100 3250
 Wire Wire Line
 	9100 3250 9350 3250
-Wire Wire Line
-	8850 3300 8850 3250
-Connection ~ 8850 3250
-Wire Wire Line
-	8850 3250 9100 3250
 $Comp
 L Device:D_Schottky D12
 U 1 1 5F12705E
@@ -1579,51 +1252,12 @@ F 3 "~" H 9100 4450 50  0001 C CNN
 	1    9100 4450
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_PNP_BEC Q12
-U 1 1 5F127064
-P 8750 4450
-F 0 "Q12" H 8940 4404 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 8940 4495 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 4550 50  0001 C CNN
-F 3 "~" H 8750 4450 50  0001 C CNN
-	1    8750 4450
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	9100 4600 9100 4900
 Wire Wire Line
-	9100 4900 8850 4900
-Wire Wire Line
-	8850 4650 8850 4900
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
-U 1 1 5F12706D
-P 8300 4450
-AR Path="/53FBA77E/5F12706D" Ref="R?"  Part="1" 
-AR Path="/504F83BE/5F12706D" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5F12706D" Ref="R80"  Part="1" 
-F 0 "R80" V 8200 4450 50  0000 C CNN
-F 1 "4.7R" V 8300 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 4450 60  0001 C CNN
-F 3 "" H 8300 4450 60  0001 C CNN
-	1    8300 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8050 4450 8050 4200
-Wire Wire Line
 	9100 4900 9850 4900
-Connection ~ 9100 4900
-Wire Wire Line
-	8850 4250 8850 4200
-Wire Wire Line
-	8850 4200 8650 4200
 Wire Wire Line
 	9100 4300 9100 4200
-Wire Wire Line
-	9100 4200 8850 4200
-Connection ~ 8850 4200
 Wire Wire Line
 	9100 4200 9350 4200
 Connection ~ 9100 4200
@@ -1638,11 +1272,6 @@ Wire Wire Line
 Connection ~ 9850 4900
 Wire Wire Line
 	9850 4900 9850 4950
-Wire Wire Line
-	7950 4200 8050 4200
-Connection ~ 8050 4200
-Wire Wire Line
-	8050 4200 8150 4200
 Connection ~ 6400 3900
 Wire Wire Line
 	6400 3900 6400 3950
@@ -1762,4 +1391,123 @@ Wire Wire Line
 Connection ~ 7200 2800
 Wire Wire Line
 	7200 2800 7550 2800
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB5DA67
+P 8400 4200
+AR Path="/53FBA77E/5DB5DA67" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB5DA67" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB5DA67" Ref="R49"  Part="1" 
+F 0 "R49" V 8300 4200 50  0000 C CNN
+F 1 "10R" V 8400 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8400 4200 60  0001 C CNN
+F 3 "" H 8400 4200 60  0001 C CNN
+	1    8400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB525FD
+P 8400 3250
+AR Path="/53FBA77E/5DB525FD" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB525FD" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB525FD" Ref="R43"  Part="1" 
+F 0 "R43" V 8300 3250 50  0000 C CNN
+F 1 "10R" V 8400 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8400 3250 60  0001 C CNN
+F 3 "" H 8400 3250 60  0001 C CNN
+	1    8400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB84717
+P 5100 4150
+AR Path="/53FBA77E/5DB84717" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB84717" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB84717" Ref="R48"  Part="1" 
+F 0 "R48" V 5000 4150 50  0000 C CNN
+F 1 "10R" V 5100 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 4150 60  0001 C CNN
+F 3 "" H 5100 4150 60  0001 C CNN
+	1    5100 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB7C530
+P 5100 3200
+AR Path="/53FBA77E/5DB7C530" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB7C530" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB7C530" Ref="R42"  Part="1" 
+F 0 "R42" V 5000 3200 50  0000 C CNN
+F 1 "10R" V 5100 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 3200 60  0001 C CNN
+F 3 "" H 5100 3200 60  0001 C CNN
+	1    5100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D7
+U 1 1 5EEAEC68
+P 2250 4350
+F 0 "D7" H 2250 4566 50  0000 C CNN
+F 1 "D_Schottky" H 2250 4475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2250 4350 50  0001 C CNN
+F 3 "~" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5EEAEC60
+P 1700 4100
+AR Path="/53FBA77E/5EEAEC60" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5EEAEC60" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5EEAEC60" Ref="R47"  Part="1" 
+F 0 "R47" V 1600 4100 50  0000 C CNN
+F 1 "10R" V 1700 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1700 4100 60  0001 C CNN
+F 3 "" H 1700 4100 60  0001 C CNN
+	1    1700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L BLDC_4-rescue:R-RESCUE-BLDC_4 R?
+U 1 1 5DB923FB
+P 1750 3150
+AR Path="/53FBA77E/5DB923FB" Ref="R?"  Part="1" 
+AR Path="/504F83BE/5DB923FB" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5DB923FB" Ref="R41"  Part="1" 
+F 0 "R41" V 1650 3150 50  0000 C CNN
+F 1 "10R" V 1750 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1750 3150 60  0001 C CNN
+F 3 "" H 1750 3150 60  0001 C CNN
+	1    1750 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 3150 1500 3150
+Wire Wire Line
+	2000 3150 2300 3150
+Wire Wire Line
+	1100 4100 1450 4100
+Wire Wire Line
+	1950 4100 2250 4100
+Wire Wire Line
+	4500 3200 4850 3200
+Wire Wire Line
+	5350 3200 5650 3200
+Wire Wire Line
+	4500 4150 4850 4150
+Wire Wire Line
+	5350 4150 5650 4150
+Wire Wire Line
+	7950 3250 8150 3250
+Wire Wire Line
+	8650 3250 9100 3250
+Wire Wire Line
+	7950 4200 8150 4200
+Wire Wire Line
+	8650 4200 9100 4200
 $EndSCHEMATC
