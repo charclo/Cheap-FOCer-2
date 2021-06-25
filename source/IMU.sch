@@ -5,8 +5,8 @@ $Descr User 8496 6906
 encoding utf-8
 Sheet 7 8
 Title "Cheap FOCer 2"
-Date "2020-04-08"
-Rev "0.9"
+Date "2021-06-25"
+Rev "1.0"
 Comp "Shaman Systems"
 Comment1 "Root"
 Comment2 ""
