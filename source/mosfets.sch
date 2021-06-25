@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Cheap FOCer 2"
-Date "2020-04-08"
-Rev "0.9"
+Date "2021-06-25"
+Rev "1.0"
 Comp "Shaman Systems"
 Comment1 "Root"
 Comment2 ""
@@ -1510,4 +1510,16 @@ Wire Wire Line
 	7950 4200 8150 4200
 Wire Wire Line
 	8650 4200 9100 4200
+$Comp
+L Device:Q_NMOS_GDS Q6
+U 1 1 60D6EF49
+P 9750 4200
+F 0 "Q6" H 9700 4300 60  0000 R CNN
+F 1 "NCEP60T20" V 10000 4450 60  0000 R CNN
+F 2 "shapes3D:TO-220-3_Horizontal_TabUp_no_hole" H 9750 4200 60  0001 C CNN
+F 3 "" H 9750 4200 60  0001 C CNN
+	1    9750 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 4000
 $EndSCHEMATC

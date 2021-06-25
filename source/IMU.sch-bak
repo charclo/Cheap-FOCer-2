@@ -193,7 +193,7 @@ F 3 "" H 4900 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Cheap-FOCer-2-60mm-rescue:BMI160-IMU U6
+L Cheap-FOCer-2-60mm-rescue:BMI160-IMU-Cheap-FOCer-2-60mm-rescue U6
 U 1 1 5E6217EF
 P 4300 3300
 AR Path="/5E6217EF" Ref="U6"  Part="1" 
