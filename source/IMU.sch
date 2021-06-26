@@ -5,8 +5,8 @@ $Descr User 8496 6906
 encoding utf-8
 Sheet 7 8
 Title "Cheap FOCer 2"
-Date "2021-06-25"
-Rev "1.0"
+Date "2020-04-08"
+Rev "0.9"
 Comp "Shaman Systems"
 Comment1 "Root"
 Comment2 ""
@@ -193,7 +193,7 @@ F 3 "" H 4900 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Cheap-FOCer-2-60mm-rescue:BMI160-IMU-Cheap-FOCer-2-60mm-rescue U6
+L Cheap-FOCer-2-60mm-rescue:BMI160-IMU U6
 U 1 1 5E6217EF
 P 4300 3300
 AR Path="/5E6217EF" Ref="U6"  Part="1" 
