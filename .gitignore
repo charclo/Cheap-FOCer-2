@@ -1,3 +1,6 @@
 
 source/_autosave-Cheap FOCer 2 60mm.kicad_pcb
 source/fp-info-cache
+.DS_Store
+*.bak
+*.sch-bak
