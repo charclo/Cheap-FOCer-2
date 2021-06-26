@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BMI160-IMU
+# BMI160-IMU-Cheap-FOCer-2-60mm-rescue
 #
-DEF BMI160-IMU U 0 40 Y Y 1 L N
+DEF BMI160-IMU-Cheap-FOCer-2-60mm-rescue U 0 40 Y Y 1 L N
 F0 "U" -400 725 50 H V L BNN
-F1 "BMI160-IMU" -400 -800 50 H V L BNN
+F1 "BMI160-IMU-Cheap-FOCer-2-60mm-rescue" -400 -800 50 H V L BNN
 F2 "PQFN50P300X250X88-14N" 0 0 50 H I L BNN
 F3 "BMI160 2.5 x 3 mm Tiaxial Accelerometer / Gyroscope Inertial Measurement Unit" 0 0 50 H I L BNN
 F4 "Bosch" 0 0 50 H I L BNN
